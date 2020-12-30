@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Lottoprogram/src/module-info.java&apos; to &apos;LottoMain.java&apos;" description="Rename resource &apos;module-info.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/module-info.java" name="LottoMain.java" stamp="1609154032763" updateReferences="true"/>
+</session>

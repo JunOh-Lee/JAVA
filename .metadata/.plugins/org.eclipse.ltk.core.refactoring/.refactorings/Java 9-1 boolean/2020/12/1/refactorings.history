@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Java 9-1 boolean/src/Min.java&apos; to &apos;Main.java&apos;" description="Rename resource &apos;Min.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Min.java" name="Main.java" stamp="1609316132340" updateReferences="true"/>
+</session>

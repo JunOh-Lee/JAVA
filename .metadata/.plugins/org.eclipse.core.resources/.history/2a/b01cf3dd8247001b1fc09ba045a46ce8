@@ -1,0 +1,35 @@
+import java.awt.*;
+
+class BorderLayout_sub extends Frame{
+	private Button bt1 = new Button("버튼1");
+	private Button bt2 = new Button("버튼2");
+	private Button bt3 = new Button("버튼3");
+	private Button bt4 = new Button("버튼4");
+	private Button bt5 = new Button("버튼5");
+	
+	private BorderLayout bl = new BorderLayout();
+	
+	BorderLayout_sub(String title){
+		super(title);						//이게 있어야 title 제목 생성
+		this.add("North", bt1);
+		this.add("South", bt2);
+		this.add("West", bt3);
+		this.add("East", bt4);
+		this.add("Center", bt5);
+		
+		super.setSize(400,400);				//실습 창의 사이즈
+		Dimension screen = Toolkit.getDefaultToolkit().getScreenSize();
+		//dimension screen이 없으면 10시에 창이 생성
+		int xpos = (int)(screen.getWidth()/2 - super.getWidth()/2);
+		int ypos = (int)(screen.getHeight()/2 - super.getHeight()/2);
+		super.setLocation(xpos, ypos);
+		super.setResizable(true);
+		super.setVisible(true);
+	}
+}
+
+public class BorderLayout{
+	public static void main(String[] args) {
+		BorderLayout_sub ex = new BorderLayout_sub("awt실습");
+	}
+}

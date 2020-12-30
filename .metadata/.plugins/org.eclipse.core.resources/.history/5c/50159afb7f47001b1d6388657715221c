@@ -1,0 +1,20 @@
+import java.awt.*;
+class BorderLayout extends Frame{
+	private Button bt1 = new Button("버튼1");
+	private Button bt2 = new Button("버튼2");
+	private Button bt3 = new Button("버튼3");
+	private Button bt4 = new Button("버튼4");
+	private Button bt5 = new Button("버튼5");
+	
+	private BorderLayout b1 = new BorderLayout(5,5);
+	
+	BorderLayout(String title){
+		super(title);
+		this.setLayout(b1);
+		this.add("North", bt1);
+		this.add("South", bt2);
+		this.add("West", bt3);
+		this.add("East", bt4);
+		this.add("Center", bt5);
+	}
+}

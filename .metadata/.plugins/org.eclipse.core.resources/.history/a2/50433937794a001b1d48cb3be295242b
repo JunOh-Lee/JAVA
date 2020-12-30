@@ -1,0 +1,15 @@
+//Please don't change class name 'Main'
+
+class Main {
+
+  public static void main(String[] args) {
+    String id = args[0];
+    if(id.equals("egoing")){
+        System.out.println("right");
+    } else {
+        System.out.println("wrong");
+    }
+    /*cmd창에서 cd 주소~\bin 까지 입력하고
+    java class명 입력값  입력*/
+  }
+}

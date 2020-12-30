@@ -1,0 +1,2 @@
+module LottoProgram {
+}
